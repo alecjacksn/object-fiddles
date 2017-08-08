@@ -1,3 +1,6 @@
+
+
+
 //Once you complete a problem, open up Chrome and check the answer in the console.
 
 
@@ -5,8 +8,12 @@
 
   //Code here
 
+var me = {
+    name: "Alec",
+    age: 21
+}
 
-
+alert(me.name);
 
 //NEXT PROBLEM
 
@@ -17,18 +24,27 @@
 
   //Code here
 
+var favoriteThings = {
+    band: "Jack Johnson",
+    food: "Sushi",
+    person: "Ghandi",
+    book: "A mind for numbers",
+    movie: "Limitless",
+    holiday: "Christmas"
+}
+
 
 //After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 
   //Code here
+favoriteThings.car = "DB11";
 
 
 //Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 
   //Code here
-
-
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter"
 
 //NEXT PROBLEM
 
